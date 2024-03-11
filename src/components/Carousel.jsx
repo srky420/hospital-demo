@@ -6,7 +6,7 @@ export const Carousel = () => {
         <div id="default-carousel" className="relative w-full" data-carousel="slide">
             <div className="relative h-96 overflow-hidden rounded-lg md:h-[500px]">
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src={"/carousel-01.jpg"} className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="..." />
+                    <img src={"./carousel-01.jpg"} className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="..." />
                     <div className="absolute block w-full h-full bg-gradient-to-r from-teal-600 to-transparent text-white">
                         <div className="max-w-screen-xl mx-auto flex items-center justify-center h-full p-10">
                             <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold">State of Art Facilities</h2>
@@ -14,7 +14,7 @@ export const Carousel = () => {
                     </div>
                 </div>
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src={"/carousel-02.jpg"} className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="..." />
+                    <img src={"./carousel-02.jpg"} className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="..." />
                     <div className="absolute block w-full h-full bg-gradient-to-r from-teal-600 to-transparent text-white">
                         <div className="max-w-screen-xl mx-auto flex items-center justify-center h-full p-10">
                             <h2 className="text-4xl sm:text-5xl  md:text-7xl lg:text-8xl font-bold">Clean Infrastructure</h2>
@@ -22,7 +22,7 @@ export const Carousel = () => {
                     </div>
                 </div>
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src={"/carousel-03.jpg"} className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="..." />
+                    <img src={"./carousel-03.jpg"} className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="..." />
                     <div className="absolute block w-full h-full bg-gradient-to-r from-teal-600 to-transparent text-white">
                         <div className="max-w-screen-xl mx-auto flex items-center justify-center h-full p-10">
                             <h2 className="text-4xl sm:text-5xl  md:text-7xl lg:text-8xl font-bold">24/7 Avaliability</h2>
